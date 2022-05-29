@@ -37,4 +37,8 @@ def video():
 #     return Response(gen(Videotwo()),
 #     mimetype='multipart/x-mixed-replace; boundary=frame')
 
-app.run(debug=True)
+if __name__== "__main__":
+    app.run(debug=False,host='0.0.0.0')
+    
+
+
